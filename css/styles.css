@@ -1,5 +1,6 @@
-body{
+*{
     font-family:"Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 .main-banner{
@@ -20,4 +21,16 @@ body{
 
 div[id$="center"]{
     border-right: 1px solid yellow;
+    border-left: 1px solid yellow;
+}
+
+div[id^="middle"]{
+  border-top: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+}
+
+.space{
+    width:200px;
+    height:200px;
+    float: left;
 }
